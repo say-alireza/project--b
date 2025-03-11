@@ -19,9 +19,8 @@ The Trade Bot Panel is a user-friendly interface designed for managing and monit
 
 ## Technologies Used
 
-- **Frontend**: React.js
+- **Frontend**: bootstrap + javascript + material css
 - **Styling**: CSS
-- **APIs**: [Your API details here]
 - **Version Control**: Git
 
 ## Installation
