@@ -72,32 +72,10 @@ Open a pull request.
 License
 This project is licensed under the MIT License.
 
-Acknowledgments
-[Your inspirations or resources]
-[Any libraries or tools you used]
-Contact
-For any inquiries, please reach out to [your email or contact information].
 
-Run
-Copy code
 
-### Instructions:
-- Replace `yourusername` with your GitHub username.
-- Fill in `[Your API details here]` with the relevant API information.
-- Update the contact information and any acknowledgments as necessary.
 
-Feel free to modify any part of the text to better fit your project!
-You
 
-there is no licnece for it and its created with bootstrap , js , html , css and some material css
-
-BLACKBOXAI
-
-Got it! Here’s an updated README template that reflects the technologies you mentioned and removes the license section. You can copy and paste this directly into your project:
-
-markdown
-Run
-Copy code
 # Trade Bot Panel
 
 ## Overview
@@ -164,6 +142,4 @@ For any inquiries, please reach out to [a.rahimpanah71@gmail.com].
 Run
 Copy code
 
-### Instructions:
-- Replace `yourusername` with your GitHub username.
-- Update the contact information and any acknowledgments as necessary.
+
