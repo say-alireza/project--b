@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../bootsrap files/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="../bootsrap files/bootstrap/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="../codes/style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <div class="container-fluid p-0 flex-grow-1 d-flex h-100">
+        <!-- Sidebar -->
+        <div id="bdSidebar" class="d-flex flex-column p-5 vh-100 bg-dark position-fixed text-white">
+            <a href="#" class="navbar-brand"></a>
+            <ul class="mynav nav nav-pills flex-column mb-auto">
+                <li class="nav-item mb-1">
+                    <a href="../codes/dashboardnewside.html" class="nav-link text-white">
+                        <div class="row justify-content-start">
+                            <i class="bi bi-bezier2"></i>
+                            <i class="fa-regular align-items-center fa-user col-4"></i>
+                            Tradig pannel bot
+                        </div>
+                    </a>
+                </li>
+                <hr>
+                <li class="nav-item mb-1">
+                    <a href="../codes/dashboard-main.html" class="nav-link text-white">
+                        <div class="row justify-content-start">
+                            <i class="bi bi-clipboard-data col-4"></i>
+                            <i class="fa-regular align-items-center fa-user col-4"></i>
+                            داشبورد
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item mb-1">
+                    <a href="./profile.html" class="nav-link text-white">
+                        <div class="row justify-content-start">
+                            <i class="bi bi-person-circle col-4"></i>
+                            <i class="fa-regular fa-bookmark col-4"></i>
+                            پروفایل
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item mb-1">
+                    <a href="./setting.html" class="nav-link text-white">
+                        <div class="row justify-content-start">
+                            <i class="bi bi-gear-fill col-4"></i>
+                            <i class="fa-solid fa-archway col-4"></i>
+                            تنظیمات
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item mb-1">
+                    <a href="./reporst.html" class="nav-link text-white">
+                        <div class="row justify-content-start">
+                            <i class="bi bi-journal-text col-4"></i>
+                            <i class="fa-solid fa-graduation-cap col-4"></i>
+                            گزارشات
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item mb-1">
+                    <a href="./events.html" class="nav-link text-white">
+                        <div class="row justify-content-start">
+                            <i class="bi bi-calendar-event-fill col-4"></i>
+                            <i class="fa-solid fa-graduation-cap col-4"></i>
+                            رویداد ها
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <hr>
+            <button class="btn btn-outline-info mt-4">راهنما</button>
+            <button class="btn btn-outline-danger mt-4">خروج</button>
+        </div>
+
+        <!-- Main content area -->
+        <div id="mainContent" class="flex-fill d-flex flex-column ms-auto">
+            <!-- Top bar for small screens -->
+            <div class="p-2 d-md-none d-flex text-white bg-success">
+                <a href="#" class="text-white" data-bs-toggle="offcanvas" data-bs-target="#bdSidebar">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+            <!-- Main content container -->
+            <div class="container-fluid bg-light mt-3">
+                <div class="container mt-3 fixed">
+                    <!-- More rows as needed -->
+                    <div class="row">
+                        <div class="col-4">
+                            <h5>داشبورد</h5>
+                        </div>
+                        <div class="col-4 mt-2"></div>
+                        <div class="col-3 align-items-start flex-class mt-2">
+                            <sub>
+                                <button class="btn btn-outline-success mt-0 fs-7">فعال</button>
+                            </sub>
+                            <i class="bi text-success bi-bell-fill mt-2"></i>
+                            <i class="bi text-primary bi-person-fill mt-2"></i>
+                            <i class="bi text-dark bi-sliders2 mt-2"></i>
+                        </div>
+                    </div>
+                    <div class="mt-4"></div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card" id="setting">
+                                <div class="card-body">
+                                    <h5 class="card-title justify-content-between d-flex"> تنظیمات <i class="bi bi-pencil-square"></i></h5>
+                                    <div class="mt-3"></div>
+                                    <p class="card-text">
+                                        <hr>
+                                        <span class="d-flex justify-content-between text-secondary">اهرم
+                                            <div>
+                                                x3
+                                            </div>
+                                        </span>
+                                        <div class="mt-1"></div>
+                                        <span class="d-flex justify-content-between text-secondary">اهرم
+                                            <div>
+                                                x12
+                                            </div>
+                                        </span>
+                                        <div class="mt-1"></div>
+                                        <span class="d-flex justify-content-between text-secondary">اهرم
+                                            <div>
+                                                x10
+                                            </div>
+                                        </span>
+                                        <div class="mt-1"></div>
+                                        <span class="d-flex justify-content-between text-secondary">اهرم
+                                            <div>
+                                                x5
+                                            </div>
+                                        </span>
+                                        <div class="mt-1"></div>
+                                        <span class="d-flex justify-content-between text-secondary">اهرم
+                                            <div>
+                                                x4
+                                            </div>
+                                        </span>
+                                        <div class="mt-1"></div>
+                                        <span class="d-flex justify-content-between text-secondary">اهرم
+                                            <div>
+                                                x3
+                                            </div>
+                                        </span>
+                                        <span class="d-flex justify-content-between text-secondary">اهرم
+                                            <div>
+                                                x3
+                                            </div>
+                                        </span>
+                                        <span class="d-flex justify-content-between text-secondary mb-4">اهرم
+                                            <div>
+                                                x3
+                                            </div>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card">
+                                <div class="mt-3"></div>
+                                <div class="card-body">
+                                    <img src="../pictures/images.png" class="card-img-top shadow- rounded on-top img-fluid" alt="...">
+                                    <h5 class="card-title justify-content-between d-flex"> برآیند
+                                    </h5>
+                                    <p class="card-text">
+                                        درصد سود در طول هفته
+                                        <br>
+                                        <div class="text-secondary" style="font-size: 0.9rem;">
+                                            به روز شده در هفته پیش </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card">
+                                <div class="mt-1"></div>
+                                <div class="card-body">
+                                    <img src="../pictures/images.jfif" class="card-img-top rounded shadow-lg img-fluid" alt="...">
+                                    <h5 class="card-title justify-content-between d-flex mt-2"> سیگنال ها
+                                    </h5>
+                                    <p class="card-text">
+                                        تعداد سینگنال ها در روز
+                                        <br>
+                                        <div class="text-secondary" style="font-size: 0.9rem;">
+                                            به روز شده در دقایقی پیش </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5"></div>
+                    <div class="mt-5"></div>
+                    <div class="row">
+                        <div class="col-md-8 col-sm-12">
+                            <div class="card" id="reports">
+                                <div class="card-body">
+                                    <h5 class="card-title justify-content-between d-flex"> گزارشات
+                                    </h5>
+                                    <p class="card-text blockquote-footer mt-3">
+                                        آخرین گزارشات
+                                        <div class="mt-5"></div>
+                                        <table class="table table-borderless">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">متن</th>
+                                                    <th scope="col">نوع</th>
+                                                    <th scope="col">تعداد</th>
+                                                    <th scope="col">تاریخ</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td scope="row" class="d-flex justify-content-center text-secondary">selected text</td>
+                                                    <td class="text-success">open</td>
+                                                    <td>2</td>
+                                                    <td class="text-secondary">selected date</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row" class="d-flex justify-content-center text-secondary">selected text</td>
+                                                    <td class="text-danger">closed</td>
+                                                    <td>3</td>
+                                                    <td class="text-secondary">selected date</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row" class="d-flex justify-content-center text-secondary">selected text</td>
+                                                    <td class="text-success">TP</td>
+                                                    <td>4</td>
+                                                    <td class="text-secondary">selected date</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row" class="d-flex justify-content-center text-secondary">selected text</td>
+                                                    <td class="text-success">TP</td>
+                                                    <td>4</td>
+                                                    <td class="text-secondary">selected date</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row" class="d-flex justify-content-center text-secondary">selected text</td>
+                                                    <td class="text-success">TP</td>
+                                                    <td>4</td>
+                                                    <td class="text-secondary">selected date</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row" class="d-flex justify-content-center text-secondary">selected text</td>
+                                                    <td class="text-success">TP</td>
+                                                    <td>4</td>
+                                                    <td class="text-secondary">selected date</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row" class="d-flex justify-content-center text-secondary">selected text</td>
+                                                    <td class="text-success">TP</td>
+                                                    <td>4</td>
+                                                    <td class="text-secondary">selected date</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row" class="d-flex justify-content-center text-secondary">selected text</td>
+                                                    <td class="text-success">TP</td>
+                                                    <td>4</td>
+                                                    <td class="text-secondary">selected date</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card">
+                                <div class="card-body" id="events">
+                                    <h5 class="card-title justify-content-between d-flex"> رویداد ها
+                                    </h5>
+                                    <p class="card-text blockquote-footer mt-3">
+                                        اخرین رویداد ها
+                                        <div class="mt-2"></div>
+                                        <span class="flex-utiliti">
+                                            ربات مجدد راه اندازی شد <br> selected time
+                                            <div class="mt-2">
+                                                <i class="bi text-success bi-arrow-repeat"></i>
+                                                <hr class="rotated">
+                                            </div>
+                                        </span>
+                                        <span class="flex-utiliti">
+                                            ربات متوقف شد<br> selected time
+                                            <div class="mt-2">
+                                                <i class="bi text-danger bi-stop-fill"></i>
+                                                <hr class="rotated">
+                                            </div>
+                                        </span>
+                                        <span class="flex-utiliti">
+                                            تنظیمات تغییر کرد <br> selected time
+                                            <div class="mt-2">
+                                                <i class="bi text-primary bi-pencil"></i>
+                                                <hr class="rotated">
+                                            </div>
+                                        </span>
+                                        <span class="flex-utiliti">
+                                            تنظیمات کاربری انجام شد <br> selected time
+                                            <div class="mt-2">
+                                                <i class="bi text-dark bi-person-lines-fill mb-0 pb-0"></i>
+                                                <hr class="rotated">
+                                            </div>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="../bootsrap files/bootstrap/js/bootstrap.bundle.min.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>
