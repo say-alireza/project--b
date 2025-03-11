@@ -1,5 +1,6 @@
-Trade Bot Panel - Frontend
+![Screenshot from 2025-03-11 14-44-17](https://github.com/user-attachments/assets/f7032dd6-ab73-45e8-bce5-bf9c23893b6b)Trade Bot Panel - Frontend
 Trade Bot Panel Screenshot 
+![main page of the projcet](https://github.com/user-attachments/assets/d7c1c924-c1bf-43ce-8825-b8857fbc472b)
 
 
 A responsive and user-friendly Trade Bot Panel frontend built with HTML, CSS, Bootstrap, and JavaScript. This project provides an intuitive interface for managing and monitoring trading bots, with real-time data visualization and interactive features.
