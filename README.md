@@ -1,5 +1,4 @@
-Trade Bot Panel - Frontend
-Trade Bot Panel Screenshot 
+<h1>Trade Bot Panel - Frontend</h1>
 ![main page of the projcet](https://github.com/user-attachments/assets/d7c1c924-c1bf-43ce-8825-b8857fbc472b)
 
 # Trade Bot Panel
